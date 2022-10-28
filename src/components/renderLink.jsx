@@ -6,7 +6,7 @@ function RenderLink() {
   const [Values, setValues] = useState([
     {
       Id: "twitter",
-      btn_link: "https://training.zuri.team/",
+      btn_link: "https://twitter.com/pauleye12_/",
       btn_label: "Twitter Link"
     },
     {

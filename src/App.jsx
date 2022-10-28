@@ -15,7 +15,7 @@ function App() {
           </div>
 
           <h1 id="twitter">Pauleye12_</h1>
-          <h2 id="slack"></h2>
+          <h2 id="slack">Adeleye Oreoluwa</h2>
         </header>
         <RenderLink />
         <div className="socials">
