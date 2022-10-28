@@ -9,7 +9,7 @@ function App() {
       <main className="content_wrapper">
         <header>
           <div>
-            <img id="profile_img" src="../public/images/default.png" alt="" />
+            <img id="profile_img" src="/images/default.png" alt="" />
             <img className="share" src="/images/share.png" alt="" />
             <img className="more" src="/images/more.png" alt="" />
           </div>
@@ -25,9 +25,9 @@ function App() {
       </main>
       <footer>
         <div>
-          <img src="../public/images/zuri.internship_logo.png" alt="" />
+          <img src="/images/zuri.internship_logo.png" alt="" />
           <h2>HNG Internship 9 Frontend Task</h2>
-          <img src="../public/images/i4g.png" alt="" />
+          <img src="/images/i4g.png" alt="" />
         </div>
       </footer>
     </div>
