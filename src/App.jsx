@@ -8,10 +8,25 @@ function App() {
     <div className="App">
       <main className="content_wrapper">
         <header>
-          <div>
-            <img id="profile_img" src="/images/default.png" alt="" />
-            <img className="share" src="/images/share.png" alt="" />
-            <img className="more" src="/images/more.png" alt="" />
+          <div className="header_wrapper">
+            <div className="img_wrapper">
+              <img
+                className="profile_img"
+                id="profile_img"
+                src="/images/default.png"
+                alt=""
+              />
+              <div className="hover_state">
+                <img src="/images/camera-01.png" alt="" />
+              </div>
+            </div>
+            <button className="options">
+              <div className='options_content' title='share this image'>
+                <img className="share" src="/images/share.png" alt="" />
+                <img className="more" src="/images/more.png" alt="" />
+                <div className="options_hover"></div>
+              </div>
+            </button>
           </div>
 
           <h1 id="twitter">Pauleye12_</h1>

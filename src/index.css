@@ -23,17 +23,63 @@ font-size: 20px;
 line-height: 30px;
 
 }
-header div{
+.header_wrapper{
     position: relative;
 }
-.share, .more{
+.header_wrapper img{
+    cursor: pointer;
+}
+.img_wrapper{
+    position: relative;
+}
+.hover_state{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 50%;
+    opacity: 0;
+    top: 0px;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+.hover_state img{
+    position: absolute;
+    bottom: 5px;
+    left: 32px;
+}
+
+.hover_state:hover{
+    opacity: 1;
+}
+
+.options{
     position: absolute;
     top: 0px;
     right: -300px;
     transform: translateY(-50%);
+    border: none;
+    background-color: white;
+}
+.options_content{
+    position: relative;
 }
 .more{
     display: none;
+}
+.options_hover{
+   position: absolute;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.041);
+    border-radius: 50%;
+    opacity: 0;
+    top: 0px;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+.options_hover:hover{
+    opacity: 0.8;
 }
 #slack{
     display: none;
