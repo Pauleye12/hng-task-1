@@ -157,6 +157,10 @@ footer div h2{
 
     .more{
         display: block;
+    }
+
+    .options{
+        display: block;
         right: -100px;
     }
     
