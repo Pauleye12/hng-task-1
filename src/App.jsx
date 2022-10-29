@@ -34,8 +34,8 @@ function App() {
         </header>
         <RenderLink />
         <div className="socials">
-          <img src="../public/images/slack.png" alt="" />
-          <img src="../public/images/icon.png" alt="" />
+          <img src="/images/slack.png" alt="" />
+          <img src="/images/icon.png" alt="" />
         </div>
       </main>
       <footer>
