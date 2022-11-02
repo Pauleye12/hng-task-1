@@ -12,7 +12,7 @@ function App() {
             <div className="img_wrapper">
               <img
                 className="profile_img"
-                id="profile_img"
+                id="‘profile__img"
                 src="/images/default.png"
                 alt=""
               />
@@ -21,7 +21,7 @@ function App() {
               </div>
             </div>
             <button className="options">
-              <div className='options_content' title='share this image'>
+              <div className="options_content" title="share this image">
                 <img className="share" src="/images/share.png" alt="" />
                 <img className="more" src="/images/more.png" alt="" />
                 <div className="options_hover"></div>
@@ -30,7 +30,7 @@ function App() {
           </div>
 
           <h1 id="twitter">Pauleye12_</h1>
-          <h2 id="slack">Adeleye Oreoluwa</h2>
+          <h2 id="slack">pauleye</h2>
         </header>
         <RenderLink />
         <div className="socials">

@@ -11,7 +11,7 @@ function RenderLink() {
       sub: ''
     },
     {
-      Id: "btn_zuri",
+      Id: "btn__zuri",
       btn_link: "https://training.zuri.team/",
       btn_label: "Zuri Team",
       sub: ''
@@ -23,7 +23,7 @@ function RenderLink() {
       sub: "this is where you find books about design and coding",
     },
     {
-      Id: "book_python",
+      Id: "book__python",
       btn_link:
         "https://books.zuri.team/python-for-beginners?ref_id=<adeleye oreoluwa>",
       btn_label: "Python Books",
@@ -36,7 +36,7 @@ function RenderLink() {
       sub: "I do good background check on coders to offer their services to you",
     },
     {
-      Id: "book_design",
+      Id: "book__design",
       btn_link: "https://books.zuri.team/design-rules",
       btn_label: "Design Books",
       sub: "zuri offers free design book for all aspiring ui/ux designers",
